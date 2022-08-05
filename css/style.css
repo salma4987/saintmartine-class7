@@ -1,0 +1,379 @@
+/************************
+     global css
+**************************/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px !important;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.orangecolor{
+	color: #fe5c24;
+}
+/************************
+header section css
+**************************/
+.topbar{
+	background-color: #eaefff;
+	padding: 16px 0;
+}
+.topbar a{
+	color: #0c3e72;
+}
+
+.book-now{
+	background: #fe5c24;
+	border: none;
+	padding: 14px 28px;
+	font-size: 16px;
+	color: white;
+	
+}
+.book-now:hover{
+	background-color: #2493e0;
+}
+.nav-item{
+	color: #eaefff;
+}
+/************************
+banner section css
+**************************/
+.banner{
+    width: 100%;
+    background: url(../img/banner1.png) no-repeat center;
+    height: 100vh;
+}
+.banner-text{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	height: 100vh;
+	justify-content: center; 
+}
+.banner-text h1{
+	font-size: 120px;
+	font-weight: 600;
+	color: white;
+}
+.banner-text p{
+	font-size: 24px;
+	color: white;
+}
+.banner-text button{
+	margin-top: 
+	margin-top: 60px;
+	background-color: #2493e0;
+	padding: 23px 79px;
+	color: white;
+	border: none;
+}
+.banner-text button:hover{
+	background: #fe5c24;
+	transition: 0.5s;
+}
+
+/************************
+search section css
+**************************/
+.search{
+	margin-top: -40px;
+}
+.tab-menu{
+	background: white;
+}
+.tab-menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 30px 26px 0;
+}
+.tab-item{
+	box-shadow: 0 10px 40px 0 rgb(221 221 221/30%);
+	padding: 40px;
+	background: white;
+}
+.form-field{
+	padding: 14px 16px;
+	color: black;
+}
+.w-21{
+	width: 18%;
+	margin-left: 8px;
+}
+.date-box{
+	position: relative;
+	
+}
+.date-box i{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+/******************************
+top visited places section css
+******************************/
+.tv-places{
+	width: 100%;
+	padding: 120px 0px;
+}
+.section-title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.section-title h2{
+	font-size: 46px;
+	color: #0c3e72;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.list-content a{
+	margin-bottom: 20px;
+}
+.list-item{
+	position: relative;
+}
+.list-content{
+	position: absolute;
+	left: 40px;
+	bottom: 40px;
+	opacity: 0;
+}
+.list-item::before{
+	content:'';
+	background-color: #0c3e72;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.3s;
+}
+.list-item:hover::before{
+	opacity: 0.55;
+	transition: 0.3s;
+}
+.list-item:hover .list-content{
+	opacity: 1;
+	transform: translateY(-20px);
+	transition: 0.5s;
+}
+.places-list{
+	margin-bottom: 50px;
+}
+
+.places-list .input{
+	text-align: center;
+}
+.banner2{
+    width: 100%;
+    background: url(../img/banner2.png) no-repeat center;
+    height: 100vh;
+}
+/******************************
+top hotel section css
+******************************/
+.tv-places2{
+	width: 100%;
+	margin-top: 130px;
+	padding-bottom: 40px;
+}
+.section-title2 h2{
+	text-align: center;
+	font-size: 45px;
+	font-weight: 600;
+	color: #0c3e72;
+}
+.section-title2 p{
+	color: #a2a2a2;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 1.7;
+	
+
+}
+/******************************
+hotel place section css
+******************************/
+.hotel-place{
+	width: 100%;
+	padding: 1px 0px;
+}
+.list-item2{
+	margin-bottom: 10px;
+	padding: 33px;
+}
+.list-content2 h3{
+	margin-bottom: 10px;
+}
+.list-content2 a{
+	color: #0c3e72;
+	font-weight: 400;
+	font-size: 24px;
+}
+.list-item2 p{
+	color: #0c3e72;
+    font-family: "Open Sans",sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.list-item2 h5{
+	color: #0c3e72;
+	font-size: 16px;
+	
+}
+.list-item2 h5 span{
+	color: #fe5c24;
+}
+.place-review i{
+	color: #ffc962;
+	margin-bottom: 12px;
+}
+.list-item2 h3 p h5{
+	margin-bottom: 10px;
+}
+/******************************
+footer item section css
+******************************/
+.section-item{
+	width: 100%;
+	padding: 120px 0;
+	background: #0c3e72;
+	margin-bottom: 40px;
+}
+.header h6{
+   font-size: 46px;
+   font-weight: 600;
+   color: white;
+}
+.item1 p{
+	color: white;
+}
+.place-review2{
+	color: #ffc962;
+}
+.item1 h5{
+	color: white;
+}
+
+/******************************
+service place section css
+******************************/
+.service-places{
+	width: 100%;
+	padding: 50px 0px;
+}
+.section-title4{
+	text-align: center;
+	margin-bottom: 26px;
+}
+
+.section-title4 h1{
+	font-size: 46px;
+	color: #0c3e72;
+	font-weight: 600;
+	
+}
+
+/******************************
+best tour place section css
+******************************/
+.tour-place{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.list-item3 h3 a{
+	font-size: 24px;
+    color: #0c3e72;
+    margin-bottom: 20px;
+}
+.list-item3 p{
+	color: #a2a2a2;
+
+}
+/******************
+footer section css
+********************/
+.footer{
+	width: 100%;
+	background:#162b45; 
+	padding: 130px;
+}
+.item1 h5 p{
+	color: white;
+}
+
+.footer-item1 h6{
+	color: white;
+	font-size: 18px;
+	padding-bottom: 80px;
+}
+.footer-item1 p{
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	margin-right: 10px;
+}
+.footer-item span{
+	color: white;
+}
+.footer-item1 li{
+	list-style: none;
+	margin-bottom: 8px;
+}
+.footer-item1 ul li a{
+    text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+.footer-item1 li a:hover{
+	color: black;
+	margin-left: 6px;
+	transition: 0.5s;
+}
+.footer-item1 span{
+	color: #fe5c24;
+}
+.container-fluid{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #212529;
+}
+.social-icons a i{
+    color: white;
+ }   
+.social-icons a i:hover {
+    color: #fe5c24;
+}
+/******************
+footer area section css
+********************/
+.main1-footer{
+	width: 100%;
+	background color: blue;
+}
+.footer-text a{
+    color: #fe5c24;
+}
+
+
+
+
